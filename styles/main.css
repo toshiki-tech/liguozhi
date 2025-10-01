@@ -130,6 +130,7 @@ body {
     border-bottom: 1px solid var(--gray-200);
     z-index: 999;
     transition: var(--transition-normal);
+    color: var(--gray-900);
 }
 
 .navbar {
@@ -406,6 +407,7 @@ main {
     padding: var(--spacing-3xl) 0;
     background: linear-gradient(135deg, #faf8f5 0%, #f5f1eb 100%);
     position: relative;
+    color: var(--gray-900);
 }
 
 .about::before {
@@ -509,6 +511,7 @@ main {
     padding: var(--spacing-3xl) 0;
     background: linear-gradient(135deg, #f8f6f0 0%, #f0ede4 100%);
     position: relative;
+    color: var(--gray-900);
 }
 
 .services::before {
@@ -765,6 +768,8 @@ main {
 /* 案例展示 */
 .cases {
     padding: var(--spacing-3xl) 0;
+    background: var(--white);
+    color: var(--gray-900);
 }
 
 .cases-grid {
@@ -849,6 +854,7 @@ main {
 .contact {
     padding: var(--spacing-3xl) 0;
     background: var(--gray-50);
+    color: var(--gray-900);
 }
 
 .contact-content {
