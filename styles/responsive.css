@@ -586,62 +586,72 @@
         font-weight: 700;
     }
     
-    /* 确保所有章节标题在手机端都有正确的颜色 */
+    /* 强制所有章节标题在手机端使用深色文字 */
     .section-title {
-        color: var(--gray-900) !important;
+        color: #1a1a1a !important;
         font-weight: 700;
         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     }
     
     .section-subtitle {
-        color: var(--gray-700) !important;
+        color: #333333 !important;
         font-weight: 500;
     }
     
-    /* 确保所有白色背景区域使用深色文字 */
+    /* 强制所有白色背景区域使用深色文字 */
     .about, .services, .cases, .contact {
-        color: var(--gray-900) !important;
+        color: #1a1a1a !important;
     }
     
     .about .section-title, .services .section-title, .cases .section-title, .contact .section-title {
-        color: var(--gray-900) !important;
+        color: #1a1a1a !important;
     }
     
     .about .section-subtitle, .services .section-subtitle, .cases .section-subtitle, .contact .section-subtitle {
-        color: var(--gray-700) !important;
+        color: #333333 !important;
     }
     
     /* 确保深色背景区域使用白色文字 */
     .hero, .footer {
-        color: var(--white) !important;
+        color: #ffffff !important;
     }
     
     .hero .section-title, .hero .section-subtitle {
-        color: var(--white) !important;
+        color: #ffffff !important;
     }
     
     .footer .section-title, .footer .section-subtitle {
-        color: var(--white) !important;
+        color: #ffffff !important;
     }
     
-    /* 导航栏标题 */
+    /* 强制导航栏文字颜色 */
     .nav-logo h1 {
-        color: var(--gray-900) !important;
+        color: #1a1a1a !important;
+        font-weight: 700;
+    }
+    
+    .nav-link {
+        color: #333333 !important;
+        font-weight: 600;
+    }
+    
+    .nav-link:hover {
+        color: #8b4513 !important;
         font-weight: 700;
     }
     
     /* 语言切换器 */
     .lang-btn {
-        color: var(--gray-800) !important;
+        color: #333333 !important;
         font-weight: 600;
         background: rgba(255, 255, 255, 0.9);
-        border: 1px solid var(--gray-300);
+        border: 1px solid #cccccc;
     }
     
     .lang-btn.active {
-        color: var(--white) !important;
-        background: var(--primary-color);
-        border-color: var(--primary-color);
+        color: #ffffff !important;
+        background: #8b4513;
+        border-color: #8b4513;
     }
     
     .hero-graphic i {

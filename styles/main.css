@@ -241,13 +241,13 @@ main {
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--gray-900);
+    color: var(--gray-900) !important;
     margin-bottom: var(--spacing-md);
 }
 
 .section-subtitle {
     font-size: 1.125rem;
-    color: var(--gray-600);
+    color: var(--gray-700) !important;
     max-width: 600px;
     margin: 0 auto;
 }
