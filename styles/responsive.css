@@ -449,26 +449,14 @@
     
     /* 语言切换器 */
     .language-switcher {
-        top: 10px;
+        top: 60px;
         right: 10px;
         z-index: 998;
-    }
-    
-    /* 确保汉堡菜单在语言切换器之上 */
-    .nav-container {
-        position: relative;
-        z-index: 999;
-    }
-    
-    .hamburger {
-        z-index: 1000;
     }
     
     /* 导航栏 */
     .nav-container {
         padding: 0 var(--spacing-sm);
-        position: relative;
-        z-index: 999;
     }
     
     /* 首页横幅 */
@@ -694,6 +682,14 @@
     /* 联系我们 */
     .contact-form {
         padding: var(--spacing-md);
+    }
+    
+    /* 发送消息按钮居中 */
+    .contact-form .btn-primary {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 200px;
     }
     
     .form-group input,
