@@ -867,6 +867,7 @@ main {
 .contact-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: var(--spacing-2xl);
     background: var(--white);
     padding: var(--spacing-2xl);
@@ -877,7 +878,7 @@ main {
 
 .contact-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: var(--spacing-lg);
 }
 
