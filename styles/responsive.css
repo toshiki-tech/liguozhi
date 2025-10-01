@@ -162,6 +162,24 @@
     
     .contact-info {
         order: 2;
+        text-align: center;
+    }
+    
+    .contact-item {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contact-details h3 {
+        color: var(--gray-800);
+        font-weight: 700;
+    }
+    
+    .contact-details p {
+        color: var(--gray-700);
+        font-weight: 500;
     }
     
     .contact-form {
@@ -445,6 +463,119 @@
     .hero-graphic {
         width: 140px;
         height: 140px;
+    }
+    
+    /* 联系我们 - 小手机优化 */
+    .contact-info {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+    }
+    
+    .contact-item {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    .contact-icon {
+        background: var(--primary-color);
+        box-shadow: 0 4px 12px rgba(139, 69, 19, 0.3);
+    }
+    
+    .contact-details h3 {
+        color: var(--gray-900);
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: var(--spacing-xs);
+    }
+    
+    .contact-details p {
+        color: var(--gray-800);
+        font-weight: 600;
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+    
+    /* 服务卡片文字对比度优化 */
+    .service-content h3 {
+        color: var(--gray-900);
+        font-weight: 700;
+    }
+    
+    .service-content p {
+        color: var(--gray-700);
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    /* 案例展示文字对比度优化 */
+    .case-content h3 {
+        color: var(--gray-900);
+        font-weight: 700;
+    }
+    
+    .case-content p {
+        color: var(--gray-700);
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    /* 关于我们文字对比度优化 */
+    .about-text h3 {
+        color: var(--gray-900);
+        font-weight: 700;
+    }
+    
+    .about-text p {
+        color: var(--gray-700);
+        font-weight: 500;
+        line-height: 1.6;
+    }
+    
+    /* 页脚文字对比度优化 */
+    .footer-content h3 {
+        color: var(--gray-900);
+        font-weight: 700;
+    }
+    
+    .footer-content p, .footer-content a {
+        color: var(--gray-700);
+        font-weight: 500;
+    }
+    
+    .footer-content a:hover {
+        color: var(--accent-color);
+        font-weight: 600;
+    }
+    
+    /* 导航栏文字对比度优化 */
+    .nav-link {
+        color: var(--gray-800);
+        font-weight: 600;
+    }
+    
+    .nav-link:hover {
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+    
+    /* 按钮文字对比度优化 */
+    .btn {
+        font-weight: 600;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn-primary {
+        color: var(--white);
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    
+    .btn-secondary {
+        color: var(--primary-color);
+        font-weight: 700;
     }
     
     .hero-graphic i {
