@@ -1,0 +1,39 @@
+{
+  "name": "liguozhi-website",
+  "version": "1.0.0",
+  "description": "立国志官方网站 - 日本国志堂拍卖会·中医养生·留学中介·中日相亲",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'Build completed'",
+    "dev": "npx live-server --port=3000 --open=/",
+    "lint": "npx htmlhint *.html",
+    "format": "npx prettier --write .",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "website",
+    "multilingual",
+    "responsive",
+    "chinese",
+    "japanese",
+    "business"
+  ],
+  "author": "立国志团队",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liguozhi/website.git"
+  },
+  "homepage": "https://liguozhi.com",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

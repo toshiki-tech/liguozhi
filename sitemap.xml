@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- 首页 -->
+  <url>
+    <loc>https://liguozhi.com/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liguozhi.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liguozhi.com/?lang=ja"/>
+  </url>
+  
+  <!-- 关于我们 -->
+  <url>
+    <loc>https://liguozhi.com/#about</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liguozhi.com/#about?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liguozhi.com/#about?lang=ja"/>
+  </url>
+  
+  <!-- 服务项目 -->
+  <url>
+    <loc>https://liguozhi.com/#services</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liguozhi.com/#services?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liguozhi.com/#services?lang=ja"/>
+  </url>
+  
+  <!-- 新闻动态 -->
+  <url>
+    <loc>https://liguozhi.com/#news</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liguozhi.com/#news?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liguozhi.com/#news?lang=ja"/>
+  </url>
+  
+  <!-- 案例展示 -->
+  <url>
+    <loc>https://liguozhi.com/#cases</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liguozhi.com/#cases?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liguozhi.com/#cases?lang=ja"/>
+  </url>
+  
+  <!-- 联系我们 -->
+  <url>
+    <loc>https://liguozhi.com/#contact</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liguozhi.com/#contact?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liguozhi.com/#contact?lang=ja"/>
+  </url>
+  
+</urlset>
