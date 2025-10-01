@@ -451,7 +451,7 @@
     .language-switcher {
         top: 20px;
         right: 80px;
-        z-index: 998;
+        z-index: 1001;
     }
     
     /* 导航栏 */
